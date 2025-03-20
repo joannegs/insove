@@ -14,7 +14,8 @@
 <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <body>
-  <header class="py-8 lg:pt-6 lg:pb-14 ">
+  <!-- HEADER -->
+  <header class="py-8 lg:pt-6 lg:pb-14">
     <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
       <div class="flex justify-center lg:justify-normal">
         <a href="#">
@@ -71,7 +72,7 @@
         </div>
         </nav>
 
-        <nav class="bg-wjite absolute w-full left-0 -bottom-[86px] 
+        <nav class="bg-white absolute w-full left-0 -bottom-[86px] 
         shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between
         lg:px-[50px] ">
           <ul class="flex gap-x-4">
@@ -109,6 +110,33 @@
       </div>
     </div>
   </header>
+
+  <!-- HERO -->
+  <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
+    <div class="container mx-auto h-full">
+      <div class="flex flex-col xl:flex-row items-center justify-between h-full">
+        <div class="hero__text xl:w-[48%] text-center xl:text-left">
+          <div class="flex items-center bg-white py-[10px] px-[20px] w-max 
+          gap-x-2 mb-[26px] rounded-full mx-auto xl:mx-0">
+            <i class="ri-heart-pulse-line text-2xl text-accent"></i>
+            <div class="uppercase text-base font-medium text-[#9ab4b7] tracking-[2.24px]">Live your life</div>
+          </div>
+          <h1 class="h1 mb-6">We care about your health</h1>
+          <p class="mb-[42px] md:max-w-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum dolore eu 
+            fugiat nulla pariatur.
+          </p>
+          <button class="btn btn-lg btn-accent mx-auto xl:mx-0">Contact us</button>
+        </div>
+        <div class="herro__img hidden xl:flex max-w-[814px] self-end">
+          <img src="assets/img/hero/img.png" alt="Doctor image">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/scrollreveal.min.js"></script>
   <script src="js/main.js"></script>
