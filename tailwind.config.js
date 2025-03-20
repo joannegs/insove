@@ -30,11 +30,11 @@
       custom2: '0px 0px 30px 0px rgba(8, 73, 81, 0.06)',
     },
     backgroundImage: {
-      services: 'url(../../assets/img/services/bg.sgv)',
-      testimonials: 'url(../../assets/img/testimonials/bg.sgv)',
-      departments: 'url(../../assets/img/departments/bg.sgv)',
-      quoteLeft: 'url(../../icons/testimonials/quote-left.sgv)',
-      quoteRight: 'url(../../icons/testimonials/quote-Right.sgv)',
+      services: 'url(../../assets/img/services/bg.svg)',
+      testimonials: 'url(../../assets/img/testimonials/bg.svg)',
+      departments: 'url(../../assets/img/departments/bg.svg)',
+      quoteLeft: 'url(../../icons/testimonials/quote-left.svg)',
+      quoteRight: 'url(../../icons/testimonials/quote-Right.svg)',
     }
   },
   plugins: [],
