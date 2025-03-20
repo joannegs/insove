@@ -42,7 +42,7 @@
           <a href="#">
             <img src="./assets/img/header/logo.svg" alt="Insove Logo">
           </a>
-          <ul>
+          <ul class="flex flex-col gap-y-5">
             <li>
               <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Home</a>
             </li>
@@ -62,7 +62,49 @@
               <a href="#" class="text-secondary hover:text-accent transition-all duration-300">Contact</a>
             </li>
           </ul>
+          <form class="relative flex gap-x-[10px]">
+            <label for="mnav-search-input">
+              <i class="ri-search-line text-2xl text-accent"></i>
+            </label>
+            <input type="text" id="mnav-search-input" placeholder="Search..." class="outline-none w-[160px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic" />
+          </form>
         </div>
+        </nav>
+
+        <nav class="bg-wjite absolute w-full left-0 -bottom-[86px] 
+        shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between
+        lg:px-[50px] ">
+          <ul class="flex gap-x-4">
+            <li>
+              <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Home</a>
+            </li>
+            <li>
+              <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Doctors</a>
+            </li>
+            <li>
+              <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Department</a>
+            </li>
+            <li>
+              <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Services</a>
+            </li>
+            <li>
+              <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Contact</a>
+            </li>
+          </ul>
+
+          <form action="" class="relative flex gap-x-[10px]">
+            <label for="search-input" class="flex justify-center items-center group">
+              <i class="ri-search-line text-2xl text-accent"></i>
+            </label>
+            <input type="text"
+              placeholder="Search..."
+              id="search-input" class="outline-none w-[100px] 
+            focus:w-[180px] focus:border-b-2 focus:border-accent placeholder:italic
+            placeholder:text-base transition:all duration-150" />
+          </form>
         </nav>
       </div>
     </div>
