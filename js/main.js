@@ -44,3 +44,65 @@ faqItems.forEach(item => {
     iconElement.classList = `${iconClass} text-2xl`;
   });
 });
+
+// scroll reveal animations 
+const sr = ScrollReveal({
+  origin: 'bottom',
+  distance: '60px',
+  duration: 3000,
+  delay: 600,
+ /*  reset: true, */
+});
+sr.reveal('.hero__title', {
+  origin: 'top',
+});
+sr.reveal('.hero__image');
+sr.reveal('.stats__image', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'top',
+});
+sr.reveal('.services');
+sr.reveal('.services__top');
+sr.reveal('.services__item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
+sr.reveal('.appointment__title');
+sr.reveal('.appointment__form');
+sr.reveal('.testimonial');
+sr.reveal('.testimonial__container');
+sr.reveal('.team__title');
+sr.reveal('.team__slider');
+sr.reveal('.faq__title');
+sr.reveal('.faq__item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
+sr.reveal('.departments__bg');
+sr.reveal('.blog__title');
+sr.reveal('.blog__post', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
+sr.reveal('.brands__logo', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
+sr.reveal('.newsletter');
+sr.reveal('.newsletter__container');
+sr.reveal('.footer__item', {
+  delay: 600,
+  distance: '100px',
+  interval: 100,
+  origin: 'bottom',
+});
